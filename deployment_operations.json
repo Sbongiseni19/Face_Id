@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/8294c98b-d4df-4f6f-b121-9abc844093d0/resourceGroups/AI/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesFace-20231111203448/operations/E3E123CA2EA36E52",
+    "operationId": "E3E123CA2EA36E52",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-11-11T18:37:36.510169Z",
+      "duration": "PT33.6626018S",
+      "trackingId": "d38ff413-5e09-4183-ab66-301fc5621dbc",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8294c98b-d4df-4f6f-b121-9abc844093d0/resourceGroups/AI/providers/Microsoft.CognitiveServices/accounts/Sbongiseni",
+        "resourceType": "Microsoft.CognitiveServices/accounts",
+        "resourceName": "Sbongiseni"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8294c98b-d4df-4f6f-b121-9abc844093d0/resourceGroups/AI/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesFace-20231111203448/operations/08585018790681775622",
+    "operationId": "08585018790681775622",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-11-11T18:37:36.6063904Z",
+      "duration": "PT33.7588232S",
+      "trackingId": "478a2970-72b0-4c74-90d1-d862e9ef4fce",
+      "statusCode": "OK"
+    }
+  }
+]

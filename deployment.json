@@ -1,0 +1,95 @@
+{
+  "id": "/subscriptions/8294c98b-d4df-4f6f-b121-9abc844093d0/resourceGroups/AI/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesFace-20231111203448",
+  "name": "Microsoft.CognitiveServicesFace-20231111203448",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "10875145910381100714",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "Sbongiseni"
+      },
+      "location": {
+        "type": "String",
+        "value": "southafricanorth"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "AI"
+      },
+      "resourceGroupId": {
+        "type": "String",
+        "value": "/subscriptions/8294c98b-d4df-4f6f-b121-9abc844093d0/resourceGroups/AI"
+      },
+      "sku": {
+        "type": "String",
+        "value": "F0"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {
+          "Microsoft.CognitiveServices/accounts": {
+            "FaceID": "Protector"
+          }
+        }
+      },
+      "virtualNetworkType": {
+        "type": "String",
+        "value": "None"
+      },
+      "vnet": {
+        "type": "Object",
+        "value": {}
+      },
+      "ipRules": {
+        "type": "Array",
+        "value": []
+      },
+      "identity": {
+        "type": "Object",
+        "value": {
+          "type": "SystemAssigned"
+        }
+      },
+      "privateEndpoints": {
+        "type": "Array",
+        "value": []
+      },
+      "privateDnsZone": {
+        "type": "String",
+        "value": "privatelink.cognitiveservices.azure.com"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-11-11T18:37:36.6306542Z",
+    "duration": "PT39.1225572S",
+    "correlationId": "4ffea932-1f6e-43d5-ad1f-1bef0b45e092",
+    "providers": [
+      {
+        "namespace": "Microsoft.CognitiveServices",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "southafricanorth"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/8294c98b-d4df-4f6f-b121-9abc844093d0/resourceGroups/AI/providers/Microsoft.CognitiveServices/accounts/Sbongiseni"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.CognitiveServicesFace"
+  }
+}
